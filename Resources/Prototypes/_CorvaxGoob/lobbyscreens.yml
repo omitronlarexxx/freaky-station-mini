@@ -420,6 +420,6 @@
 
 - type: lobbyBackground
   id: AwesomeShuttle
-  background: /Textures/_CorvaxGoob/LobbyScreens/awesome-shuttle.webp
+  background: /Textures/_CorvaxGoob/LobbyScreens/space-nuke.webp
   name: "Замечательный шаттл"
   artist: "qulezza"
