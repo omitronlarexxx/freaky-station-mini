@@ -89,12 +89,6 @@
     receiveFrequencyId: TurretControl
     transmitFrequencyId: Turret
 
-# Equipment compatibility
-- type: entity
-  id: ClothingHeadsetAltTypan
-  parent: ClothingHeadsetAltSyndicate
-  name: typan over-ear headset
-
 - type: entity
   id: BaseUplinkRadio40TC
   parent: BaseUplinkRadio
