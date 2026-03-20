@@ -314,6 +314,18 @@
     path: /Audio/_Goobstation/Music/the_gray_tide_song.ogg
 
 - type: jukebox
+  id: future_perception
+  name: Merct - Future Perception
+  path:
+    path: /Audio/_Goobstation/Music/future_perception.ogg
+
+- type: jukebox
+  id: mind_crawler
+  name: Merct - Mind Crawler
+  path:
+    path: /Audio/_Goobstation/Music/mind_crawler.ogg
+
+- type: jukebox
   id: the_man_who_sold_the_world
   name: Midge Ure - The Man Who Sold The World
   path:
@@ -335,7 +347,7 @@
   id: ebanutayalyaguha
   name: Axel F - Crazy Frog
   path:
-    path: /Audio/Jukebox/ebanutayaLyaguha.ogg
+    path: /Audio/Jukebox/ebnutayaLyaguha.ogg
 
 - type: jukebox
   id: podarokpina
@@ -365,10 +377,10 @@
   id: the_only_thing_i_know_for_real
   name: MGR:R - The Only Thing I Know For Real
   path:
-    path: /Audio/Jukebox/The_Only_Thing_I_Know_For_Real.ogg
+    path: /Audio/Jukebox/The_Only_Thing_I_Know_for_Real.ogg
 
 - type: jukebox
   id: freaks
   name: Surf Curse - Freaks
   path:
-    path: /Audio/Jukebox/freaks
+    path: /Audio/Jukebox/freaks.ogg
