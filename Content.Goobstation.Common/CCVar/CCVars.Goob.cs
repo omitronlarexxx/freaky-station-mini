@@ -305,13 +305,16 @@ public sealed partial class GoobCVars
     #region Goobcoins
 
     public static readonly CVarDef<int> GoobcoinsPerPlayer =
-        CVarDef.Create("servercurrency.per_player", 10, CVar.SERVERONLY);
+        CVarDef.Create("servercurrency.per_player", 20, CVar.SERVERONLY);
 
     public static readonly CVarDef<int> GoobcoinNonAntagMultiplier =
         CVarDef.Create("servercurrency.non_antag_multiplier", 1, CVar.SERVERONLY);
 
     public static readonly CVarDef<int> GoobcoinServerMultiplier =
         CVarDef.Create("servercurrency.server_multiplier", 1, CVar.SERVERONLY);
+
+    public static readonly CVarDef<double> GoobcoinSponsorMultiplier =
+        CVarDef.Create("servercurrency.sponsor_multiplier", 2.0, CVar.SERVERONLY);
 
     public static readonly CVarDef<int> GoobcoinMinPlayers =
         CVarDef.Create("servercurrency.min_players", 5, CVar.SERVERONLY);

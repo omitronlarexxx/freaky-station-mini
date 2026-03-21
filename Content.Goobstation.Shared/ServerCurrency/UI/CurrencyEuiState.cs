@@ -12,6 +12,14 @@ using Robust.Shared.Serialization;
 namespace Content.Goobstation.Shared.ServerCurrency.UI
 {
     [Serializable, NetSerializable]
+    public enum RouletteMode : byte
+    {
+        X2 = 0,
+        X5 = 1,
+        X10 = 2
+    }
+
+    [Serializable, NetSerializable]
     public sealed class CurrencyEuiState : EuiStateBase
     {
         public bool HasRouletteResult;
@@ -53,6 +61,8 @@ namespace Content.Goobstation.Shared.ServerCurrency.UI
         {
             public int Bet;
             public int SpinId;
+            public RouletteMode Mode = RouletteMode.X2;
+            public bool FastSpin;
         }
     }
 }

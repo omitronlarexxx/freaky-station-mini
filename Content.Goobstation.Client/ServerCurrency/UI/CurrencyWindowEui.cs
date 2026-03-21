@@ -50,12 +50,14 @@ namespace Content.Goobstation.Client.ServerCurrency.UI
             _window.SetRouletteResult(cast.LastRouletteSpinId, cast.LastRouletteBet, cast.LastRoulettePayout, cast.LastRouletteMultiplier);
         }
 
-        private void OnSpinRouletteMsg(int bet, int spinId)
+        private void OnSpinRouletteMsg(int bet, int spinId, RouletteMode mode, bool fastSpin)
         {
             SendMessage(new CurrencyEuiMsg.SpinRoulette
             {
                 Bet = bet,
-                SpinId = spinId
+                SpinId = spinId,
+                Mode = mode,
+                FastSpin = fastSpin
             });
         }
     }
