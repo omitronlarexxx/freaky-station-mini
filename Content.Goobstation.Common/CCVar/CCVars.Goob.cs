@@ -305,7 +305,7 @@ public sealed partial class GoobCVars
     #region Goobcoins
 
     public static readonly CVarDef<int> GoobcoinsPerPlayer =
-        CVarDef.Create("servercurrency.per_player", 20, CVar.SERVERONLY);
+        CVarDef.Create("servercurrency.per_player", 10, CVar.SERVERONLY); // GO BACK, I WANT TO BE GOOB FORK
 
     public static readonly CVarDef<int> GoobcoinNonAntagMultiplier =
         CVarDef.Create("servercurrency.non_antag_multiplier", 1, CVar.SERVERONLY);
