@@ -13,7 +13,7 @@
   name: gs-balanceui-shop-buy-token-antag-high
   label: gs-balanceui-shop-token-antag-high
   description: gs-balanceui-shop-buy-token-antag-high-desc
-  price: 2000
+  price: 3000
   adminNote: gs-balanceui-remark-token-antag-high
 
 - type: tokenListing
@@ -21,7 +21,7 @@
   name: gs-balanceui-shop-buy-token-antag-mid
   label: gs-balanceui-shop-token-antag-mid
   description: gs-balanceui-shop-buy-token-antag-mid-desc
-  price: 1500
+  price: 2000
   adminNote: gs-balanceui-remark-token-antag-mid
 
 - type: tokenListing
