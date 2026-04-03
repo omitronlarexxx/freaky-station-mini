@@ -2,7 +2,7 @@
   id: ERPShibariRope
   abstract: true
   name: верёвка шибари
-  description: Эта верёвка была сделана специально для японского исскуства связывания. Некоторым нравится и такое.
+  description: Эта верёвка была сделана специально для японского искусства связывания. Некоторым нравится и такое.
   components:
   - type: Item
     size: Small
@@ -10,8 +10,8 @@
   - type: Handcuff
     cuffedRSI: _FreakStation/Casha/ERPtoys/cuffs/shibari_white.rsi
     bodyIconState: body-overlay
-    breakoutTime: 6 # Keep in mind that's a toy
-    uncuffTime: 6 # /\
+    breakoutTime: 4 # Keep in mind that's a toy
+    uncuffTime: 4 # /\
   - type: Sprite
     sprite: _FreakStation/Casha/ERPtoys/cuffs/shibari_white.rsi
     state: handcuff
@@ -25,7 +25,7 @@
       types:
         Blunt: 0
   - type: UseDelay
-    delay: 6
+    delay: 4
   - type: Clickable
 
 - type: entity

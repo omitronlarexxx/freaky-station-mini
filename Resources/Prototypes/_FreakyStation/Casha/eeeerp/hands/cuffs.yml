@@ -7,14 +7,13 @@
   - type: Item
     size: Small
   - type: Handcuff
-    cuffedRSI: _FreakStation/Casha/Casha/ERPtoys/cuffs/handcuff.rsi
+    cuffedRSI: _FreakStation/Casha/ERPtoys/cuffs/handcuff.rsi
     bodyIconState: body-overlay
-    breakoutTime: 3
+    breakoutTime: 2
     cuffTime: 7
-    uncuffTime: 3
-    stunBonus: 4
+    uncuffTime: 2
   - type: Sprite
-    sprite: _FreakStation/Casha/Casha/ERPtoys/cuffs/handcuff.rsi
+    sprite: _FreakStation/Casha/ERPtoys/cuffs/handcuff.rsi
     state: handcuff
   - type: Tag
     tags:
@@ -26,4 +25,4 @@
       types:
         Blunt: 0
   - type: UseDelay
-    delay: 3
+    delay: 2

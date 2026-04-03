@@ -25,7 +25,7 @@
       equipDelay: 5
     - type: SelfUnremovableClothing
     - type: ShockOnTrigger
-      damage: 3
+      damage: 1
       duration: 3
     - type: TriggerOnSignal
     - type: DeviceLinkSink
@@ -42,7 +42,7 @@
   components:
     - type: Sprite
       sprite: _FreakStation/Casha/clothing/neck/collar_cross.rsi
-      scale: 0.4,0.4
+      scale: 0.6,0.6
     - type: Clothing
       sprite: _FreakStation/Casha/clothing/neck/collar_cross.rsi
 
@@ -54,7 +54,7 @@
   components:
     - type: Sprite
       sprite: _FreakStation/Casha/clothing/neck/collar_star.rsi
-      scale: 0.4,0.4
+      scale: 0.6,0.6
     - type: Clothing
       sprite: _FreakStation/Casha/clothing/neck/collar_star.rsi
 
@@ -66,7 +66,7 @@
   components:
     - type: Sprite
       sprite: _FreakStation/Casha/clothing/neck/collar2.rsi
-      scale: 0.4,0.4
+      scale: 0.6,0.6
     - type: Clothing
       sprite: _FreakStation/Casha/clothing/neck/collar2.rsi
 
@@ -78,6 +78,6 @@
   components:
     - type: Sprite
       sprite: _FreakStation/Casha/clothing/neck/collar3.rsi
-      scale: 0.4,0.4
+      scale: 0.6,0.6
     - type: Clothing
       sprite: _FreakStation/Casha/clothing/neck/collar3.rsi
