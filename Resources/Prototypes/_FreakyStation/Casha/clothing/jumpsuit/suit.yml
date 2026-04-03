@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformBase
-  id: pizdecSherlook
-  name: Костюм извращенца
-  description: Очень открытый БДСМ костюм который сшили обкуренные зеки в пермабриге
+  id: ERPJumpsuitBodyopen
+  name: костюм извращенца
+  description: Черные облегающие кожанные джинсы на лямках. Сшито грубо, пахнет мочой и перегаром.
   components:
   - type: Sprite
     sprite: _FreakStation/Casha/clothing/jumpsuit/Sherlookpizdec.rsi

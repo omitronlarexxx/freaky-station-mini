@@ -276,8 +276,8 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachinePants
-  name: Трусомат
-  description: Продаёт нижнее бельё. Не путать с трусокрадом.
+  name: трусомат
+  description: Выдает нижнее бельё. Не путать с трусокрадом.
   components:
   - type: VendingMachine
     pack: PantsInventory
@@ -311,8 +311,8 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineSex
-  name: Сексомат
-  description: Very horny baby
+  name: сексомат
+  description: Very horny baby. Выдает разные прибамбасы для ваших плотских утех.
   components:
   - type: VendingMachine
     pack: SexInventory

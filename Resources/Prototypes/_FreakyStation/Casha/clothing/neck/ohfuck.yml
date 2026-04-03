@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingScarfBase
-  id: dog-collar
-  name: Ошейник
+  id: DogCollar
+  name: ошейник
   description: Крепкий ошейник немного сжимающий шею носителя и придушивая его. Кому то такое даже нравится.
   components:
     - type: Sprite
@@ -11,8 +11,8 @@
 
 - type: entity
   parent: ClothingScarfBase
-  id: dog-collar-e
-  name: Ошейник
+  id: DogCollarElectrical
+  name: шоковый ошейник
   description: Крепкий ошейник который выдаёт разряд тока по сигналу, кто то и такое любит.
   components:
     - type: Sprite
