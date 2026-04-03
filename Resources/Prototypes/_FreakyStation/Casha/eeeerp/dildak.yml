@@ -7,7 +7,7 @@
   - type: Item
     size: Small
   - type: Sprite
-    sprite: _FreakStation/Casha/ERPtoys/basedildo.rsi
+    sprite: _Freakstation/Casha/ERPtoys/basedildo.rsi
   - type: StaminaDamageOnHit
     damage: 4
   - type: MeleeWeapon
