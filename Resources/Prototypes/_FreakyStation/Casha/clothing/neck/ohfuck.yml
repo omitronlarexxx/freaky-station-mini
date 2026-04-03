@@ -1,7 +1,9 @@
+# from freaky station
+
 - type: entity
   parent: ClothingScarfBase
-  id: DogCollar
-  name: ошейник
+  id: OriginalDogCollar
+  name: жесткий ошейник
   description: Крепкий ошейник немного сжимающий шею носителя и придушивая его. Кому то такое даже нравится.
   components:
     - type: Sprite
@@ -11,7 +13,7 @@
 
 - type: entity
   parent: ClothingScarfBase
-  id: DogCollarElectrical
+  id: OriginalDogCollarElectrical
   name: шоковый ошейник
   description: Крепкий ошейник который выдаёт разряд тока по сигналу, кто то и такое любит.
   components:
@@ -29,3 +31,49 @@
     - type: DeviceLinkSink
       ports:
         - Trigger
+
+# from lust station - by @omitronlarexxx
+
+- type: entity
+  parent: ClothingScarfBase
+  id: DogCollarCross
+  name: ошейник с крестом
+  description: Красивый серебрянный крестик звенит и украшает этот ошейник.
+  components:
+    - type: Sprite
+      sprite: _FreakStation/Casha/clothing/neck/collar_cross.rsi
+    - type: Clothing
+      sprite: _FreakStation/Casha/clothing/neck/collar_cross.rsi
+
+- type: entity
+  parent: ClothingScarfBase
+  id: DogCollarStar
+  name: ошейник с звездой
+  description: Красивая серебренная звездочка звенит и украшает этот ошейник.
+  components:
+    - type: Sprite
+      sprite: _FreakStation/Casha/clothing/neck/collar_star.rsi
+    - type: Clothing
+      sprite: _FreakStation/Casha/clothing/neck/collar_star.rsi
+
+- type: entity
+  parent: ClothingScarfBase
+  id: DogCollarNet
+  name: сетчатый ошейник
+  description: Красивый сетчатый ошейник. Позволяет вашей шее дышать при этом делая её красивее.
+  components:
+    - type: Sprite
+      sprite: _FreakStation/Casha/clothing/neck/collar2.rsi
+    - type: Clothing
+      sprite: _FreakStation/Casha/clothing/neck/collar2.rsi
+
+- type: entity
+  parent: ClothingScarfBase
+  id: DogCollarNormal
+  name: ошейник с кольцом
+  description: Ошейник с металлическим кольцом по центру. Классика.
+  components:
+    - type: Sprite
+      sprite: _FreakStation/Casha/clothing/neck/collar3.rsi
+    - type: Clothing
+      sprite: _FreakStation/Casha/clothing/neck/collar3.rsi
