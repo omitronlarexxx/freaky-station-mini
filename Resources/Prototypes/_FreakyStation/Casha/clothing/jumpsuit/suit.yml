@@ -33,7 +33,7 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: PivozavShirt
+  id: PivozavrShirt
   name: майка 'Пивозавр'
   description: К вашему сожалению, альтушки в комплекте не предусмотрено.
   components:
