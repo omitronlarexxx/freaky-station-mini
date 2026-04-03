@@ -1,0 +1,29 @@
+- type: entity
+  parent: BaseItem
+  id: ToyHandcuffs
+  name: игрушечные наручники
+  description: Мягкие и хрупкие наручники. Классика!
+  components:
+  - type: Item
+    size: Small
+  - type: Handcuff
+    cuffedRSI: _FreakStation/Casha/Casha/ERPtoys/cuffs/handcuff.rsi
+    bodyIconState: body-overlay
+    breakoutTime: 3
+    cuffTime: 7
+    uncuffTime: 3
+    stunBonus: 4
+  - type: Sprite
+    sprite: _FreakStation/Casha/Casha/ERPtoys/cuffs/handcuff.rsi
+    state: handcuff
+  - type: Tag
+    tags:
+    - Handcuffs
+  - type: MeleeWeapon
+    wideAnimationRotation: 90
+    animation: WeaponArcDisarm
+    damage:
+      types:
+        Blunt: 0
+  - type: UseDelay
+    delay: 3

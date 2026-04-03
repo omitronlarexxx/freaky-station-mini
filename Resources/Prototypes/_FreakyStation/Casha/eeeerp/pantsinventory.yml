@@ -358,10 +358,25 @@
 - type: vendingMachineInventory
   id: SexInventory
   startingInventory:
-    ClothingBeltStrapon: 5
     AfrodeziakBottleFull: 5
-    dog-collar-e: 5
-    dog-collar: 5
+    OriginalDogCollarElectrical: 5
+    OriginalDogCollar: 5
+    # lust station
+    DogCollarNormal: 5
+    DogCollarNet: 5
+    DogCollarStar: 5
+    DogCollarCross: 5
+    ClothingBeltStrapon: 5
+    ERPWhip: 5
+    ERPBasedDildo: 5
+    ToyHandcuffs: 5
+    ERPShibariRopeWhite: 5
+    ERPShibariRopeRed: 5
+    ERPJumpsuitBodyopen: 2
+    ERPBunnysuitUniform: 2
+    ERPElegantRedSuit: 2
+    PivozavrShirt: 2
+    # lust station end
     LPPBodyBra: 10
     LPPBodyBraCut: 5
     LPPLBodyBraCut2: 5

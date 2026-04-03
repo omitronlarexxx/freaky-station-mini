@@ -32,7 +32,7 @@
       ports:
         - Trigger
 
-# from lust station - by @omitronlarexxx
+# from lust station
 
 - type: entity
   parent: ClothingScarfBase
@@ -42,6 +42,7 @@
   components:
     - type: Sprite
       sprite: _FreakStation/Casha/clothing/neck/collar_cross.rsi
+      scale: 0.4,0.4
     - type: Clothing
       sprite: _FreakStation/Casha/clothing/neck/collar_cross.rsi
 
@@ -53,6 +54,7 @@
   components:
     - type: Sprite
       sprite: _FreakStation/Casha/clothing/neck/collar_star.rsi
+      scale: 0.4,0.4
     - type: Clothing
       sprite: _FreakStation/Casha/clothing/neck/collar_star.rsi
 
@@ -60,10 +62,11 @@
   parent: ClothingScarfBase
   id: DogCollarNet
   name: сетчатый ошейник
-  description: Красивый сетчатый ошейник. Позволяет вашей шее дышать при этом делая её красивее.
+  description: Красивый сетчатый ошейник. Позволяет вашей прекрасной шее дышать и при этом не портить вид.
   components:
     - type: Sprite
       sprite: _FreakStation/Casha/clothing/neck/collar2.rsi
+      scale: 0.4,0.4
     - type: Clothing
       sprite: _FreakStation/Casha/clothing/neck/collar2.rsi
 
@@ -75,5 +78,6 @@
   components:
     - type: Sprite
       sprite: _FreakStation/Casha/clothing/neck/collar3.rsi
+      scale: 0.4,0.4
     - type: Clothing
       sprite: _FreakStation/Casha/clothing/neck/collar3.rsi

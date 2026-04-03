@@ -2,7 +2,7 @@
   parent: [BaseItem]
   id: ERPWhip
   name: плетка
-  description: Черная плетка для эротических игр в кровати, или просто избить кого нибудь. Sounds funny.
+  description: Черная плетка для эротических игр в кровати, или просто избить кого нибудь.
   components:
   - type: Sprite
     sprite: _FreakStation/Casha/ERPtoys/whip.rsi
@@ -15,7 +15,7 @@
     damage: 8
   - type: MeleeWeapon
     soundHit:
-    path: /Audio/_FreakStation/ERP/whip.ogg
+     path: /Audio/_FreakStation/ERP/whip.ogg
     damage:
       types:
         Blunt: 0

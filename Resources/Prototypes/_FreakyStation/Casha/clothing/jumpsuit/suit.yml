@@ -9,6 +9,8 @@
   - type: Clothing
     sprite: _FreakStation/Casha/clothing/jumpsuit/Sherlookpizdec.rsi
 
+# from lust station
+
 - type: entity
   parent: ClothingUniformBase
   id: ERPBunnysuitUniform
