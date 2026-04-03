@@ -358,7 +358,6 @@
     AfrodeziakBottleFull: 8
     OriginalDogCollarElectrical: 3
     OriginalDogCollar: 3
-    # lust station
     DogCollarNormal: 3
     DogCollarNet: 3
     DogCollarStar: 3
@@ -371,10 +370,14 @@
     ERPShibariRopeRed: 3
     ERPJumpsuitBodyopen: 2
     ERPBunnysuitUniform: 2
+    ClothingUniformJumpskirtReporter: 2
+    ClothingUniformJumpskirtSchool: 2
+    ClothingHeadHatTacticalMaidHeadband: 2
+    ClothingUniformJumpskirtTacticalMaid: 2
     ERPElegantTacticalMaidUniform: 2
     ClothingUniformJumpskirtElegantMaid: 2
+    ClothingUniformJumpskirtJanimaidmini: 2
     PivozavrShirt: 2
-    # lust station end
     LPPFishnetBody: 3
     LPPFishnetGloves: 3
     LPPFishnetSleeves: 3
